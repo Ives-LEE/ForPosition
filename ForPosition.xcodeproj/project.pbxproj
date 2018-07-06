@@ -13,6 +13,8 @@
 		DE951FDB20E4F667008706EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE951FD920E4F667008706EA /* Main.storyboard */; };
 		DE951FDD20E4F668008706EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE951FDC20E4F668008706EA /* Assets.xcassets */; };
 		DE951FE020E4F668008706EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE951FDE20E4F668008706EA /* LaunchScreen.storyboard */; };
+		DE951FE820E4F8A4008706EA /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE951FE720E4F8A4008706EA /* Friend.swift */; };
+		DE951FEA20E4FFC7008706EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE951FE920E4FFC7008706EA /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DE951FDC20E4F668008706EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE951FDF20E4F668008706EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE951FE120E4F668008706EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE951FE720E4F8A4008706EA /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		DE951FE920E4FFC7008706EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DE951FDC20E4F668008706EA /* Assets.xcassets */,
 				DE951FDE20E4F668008706EA /* LaunchScreen.storyboard */,
 				DE951FE120E4F668008706EA /* Info.plist */,
+				DE951FE720E4F8A4008706EA /* Friend.swift */,
+				DE951FE920E4FFC7008706EA /* DataManager.swift */,
 			);
 			path = ForPosition;
 			sourceTree = "<group>";
@@ -99,6 +105,11 @@
 				TargetAttributes = {
 					DE951FCF20E4F667008706EA = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE951FE820E4F8A4008706EA /* Friend.swift in Sources */,
+				DE951FEA20E4FFC7008706EA /* DataManager.swift in Sources */,
 				DE951FD820E4F667008706EA /* DetailViewController.swift in Sources */,
 				DE951FD620E4F667008706EA /* MasterViewController.swift in Sources */,
 				DE951FD420E4F667008706EA /* AppDelegate.swift in Sources */,
